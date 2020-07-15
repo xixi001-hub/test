@@ -1,17 +1,9 @@
 
-# 请务必保存为utf-8格式
+
+server:
+    port: 5050
+
 spring:
-    profiles:
-        active: dev    
----
-spring:
-    profiles: dev
     application:
-        name: microservicecloud-config-dev
----
-spring:
-    profiles: test
-    application:
-        name: microservicecloud-config-test
-        
+        name: aaa
 
